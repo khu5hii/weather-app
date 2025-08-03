@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Jersey 10', Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #72b6f9, #8cc6ff, #4192f3);
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2.5px;
+}
+
+* {
+    margin: 0;
+}
+
+.weather {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.weather h1 {
+    font-size: 2.4em;
+    font-weight: 200;
+    transform: scaleY(0.8);
+
+}
+
+nav {
+    display: flex;
+    background-color: #9810FA;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    border: 5px black solid;
+}
+
+nav img {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+nav h5 {
+    color: rgba(255, 255, 255, 0.819);
+    font-size: 1.3em;
+    transform: scaleY(0.8);
+    font-weight: 200;
+}
