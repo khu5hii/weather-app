@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Weather app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "k",
   "license": "ISC",
