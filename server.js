@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 
 
@@ -25,8 +25,7 @@ app.get('/api/weather', async (req, res) => {
         res.json(data);
 
     } catch(e) {
-        res.writeHead(500, {'Content-Type': 'text/plain'})
-        res.end("Server error");
+        res.status(500).send("Server error")
     }
 })
 
