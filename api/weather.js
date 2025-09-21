@@ -9,10 +9,7 @@ export default async function handler(req, res) {
   const url = `https://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${city}&lang=en`;
 
   try {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error("Weather API request failed");
-    }
+    const response = await fetch(url); // Node 18+ has fetch built-in
     const data = await response.json();
     return res.status(200).json(data);
   } catch (error) {
