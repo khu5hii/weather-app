@@ -5,7 +5,11 @@
 Step back in time with our retro-themed weather app. Designed with a pixelated 8-bit aesthetic, it brings classic gaming vibes while delivering real-time weather data.
 
 ---
+## 🌐 Live Website
 
+👉 **Live Demo:**  https://retrocast.onrender.com/
+
+---
 ## 🎮 Features
 
 - **Retro 8-bit UI**: Nostalgic, pixel-perfect interface with pastel gradients and retro fonts.  
@@ -45,6 +49,3 @@ Step back in time with our retro-themed weather app. Designed with a pixelated 8
 - **Colors**: Pixel-perfect gradients reminiscent of classic games  
 - **Icons**: Custom pixel-art icons for humidity, wind, and weather  
 
----
-
-> “Weather doesn’t get more retro than this!”
